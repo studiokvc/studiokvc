@@ -2,29 +2,35 @@
 
 ## Création numérique et recherche blockchain
 
-Studio KVC rassemble des projets web, vidéo et musique ainsi qu’un travail de recherche et de documentation technique sur les protocoles open source.
+Studio KVC relie création web, vidéo et musique à une pratique de recherche technique sur les protocoles open source. Les parcours francophones partent du code pour rendre visibles architectures, invariants, modèles de confiance et limites.
 
-### Axes de travail
+### Expertises étudiées
 
-- Zero-knowledge proofs, circuits arithmétiques et zk-rollups
-- DeFi : échanges, prêt, liquid staking et architecture des protocoles
-- Interopérabilité et infrastructures blockchain
-- Documentation technique accessible aux lecteurs francophones
-- Création numérique, production audiovisuelle et outils web
+- ZK-rollups, zkVM, STARK, SNARK et circuits arithmétiques
+- FHE, confidentialité programmable et calcul sur données chiffrées
+- Base L2, comptes intelligents, paiements et attribution ERC-8021
+- Hyperliquid, HyperEVM, CCTP et infrastructures de marché
+- DeFi, interopérabilité et sécurité des smart contracts
+- Production audiovisuelle, expériences web et narration technique
 
-### Travaux blockchain sélectionnés
+### Sélection ZK et confidentialité
 
-- [Circom](https://github.com/studiokvc/circom) — parcours en 10 chapitres sur le compilateur de circuits ZK, les contraintes R1CS, les témoins et les risques de sous-contrainte.
-- [Challenge Scroll](https://github.com/studiokvc/Challenge-Scroll) — expérimentation Solidity dans l’écosystème Scroll.
-- [Balancer V2](https://github.com/studiokvc/balancer-v2-monorepo) — lecture française du Vault, des pools, des swaps et de la liquidité.
-- [Morpho Blue](https://github.com/studiokvc/morpho-blue) — étude des marchés isolés, des intérêts et des liquidations.
-- [Across Protocol](https://github.com/studiokvc/across-contracts) — documentation du bridge par relayeurs et de son règlement optimiste.
-- [Base](https://github.com/studiokvc/base) — exploration de l’infrastructure d’un rollup OP Stack.
+- [Stone Prover](https://github.com/studiokvc/stone-prover) — CPU AIR Cairo, engagements de Merkle, FRI et paramètres STARK.
+- [gnark](https://github.com/studiokvc/gnark) — circuits Go, R1CS/SCS, Groth16, PLONK et vérification EVM.
+- [Circom](https://github.com/studiokvc/circom) — compilateur, contraintes R1CS, témoins et risques de sous-contrainte.
+- [OpenFHE](https://github.com/studiokvc/openfhe-development) — BFV, BGV, CKKS, FHEW/TFHE, bruit et bootstrapping.
 
-### Méthode
+### Base et HyperEVM
 
-Les parcours documentaires partent du code source et décrivent les responsabilités des composants, les flux importants et les limites observables. Les chapitres sont publiés dans `docs/fr/` avec un historique lisible. Les résultats de tests ne sont jamais revendiqués lorsqu’aucune exécution n’a eu lieu.
+- [Base Skills](https://github.com/studiokvc/skills) — réseau, Base Account, paiements, paymasters, Builder Codes et agents.
+- [Base](https://github.com/studiokvc/base) — composants du L2 et architecture OP Stack.
+- [Base Contracts](https://github.com/studiokvc/contracts) — messagerie, dépôts, retraits et contrats système.
+- [Circle HyperEVM Contracts](https://github.com/studiokvc/hyperevm-circle-contracts) — frontière HyperCore/HyperEVM, CCTP, CREATE2 et proxies.
 
-### Contribution
+### Autres travaux
 
-Studio KVC souhaite aider les projets ZK, DeFi et d’infrastructure par une documentation claire, une analyse reproductible et des améliorations ciblées.
+[Balancer V2](https://github.com/studiokvc/balancer-v2-monorepo), [Morpho Blue](https://github.com/studiokvc/morpho-blue), [Across](https://github.com/studiokvc/across-contracts), [Wormhole](https://github.com/studiokvc/wormhole), [IBC](https://github.com/studiokvc/ibc-go) et plusieurs infrastructures de données ou de consensus.
+
+### Méthode et collaboration
+
+Chaque parcours est composé de chapitres courts dans `docs/fr/`, publiés séparément et reliés aux composants du dépôt. Le texte distingue analyse documentaire, test et audit, et ne revendique aucune exécution non réalisée. Studio KVC est ouvert aux collaborations documentaires, analyses reproductibles et améliorations ciblées.
