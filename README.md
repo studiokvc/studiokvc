@@ -1,5 +1,9 @@
 # Studio KVC
 
+## Parcours français
+
+Le dépôt comprend maintenant un parcours documentaire en français de 58 chapitres courts dans [docs/fr/](https://github.com/studiokvc/studiokvc/tree/main/docs/fr), publié avec un commit distinct par chapitre. Il présente les mécanismes ZK, FHE, Base, HyperEVM, DeFi et les limites relevées dans les sources publiques, sans installation, compilation ni exécution de tests.
+
 ## Création numérique et recherche blockchain
 
 Studio KVC relie création web, vidéo et musique à une pratique de recherche technique sur les protocoles open source. Les parcours francophones partent du code pour rendre visibles architectures, invariants, modèles de confiance et limites.
